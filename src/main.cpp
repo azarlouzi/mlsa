@@ -89,10 +89,10 @@ void run_test_case_1(ML_SA_Focus ml_sa_focus = ml_sa_var_focus) {
 
    if (ml_sa_focus == ml_sa_var_focus) {
       gamma_sa = Gamma(1, beta, 100L);
-      gamma_sa = Gamma(1, beta, 100L);
+      gamma_nsa = Gamma(1, beta, 100L);
    } else {
       gamma_sa = Gamma(0.1, beta, 25000L);
-      gamma_sa = Gamma(0.1, beta, 25000L);
+      gamma_nsa = Gamma(0.1, beta, 25000L);
    };
 
    double h_L;
